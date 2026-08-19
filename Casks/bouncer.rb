@@ -1,6 +1,6 @@
 cask "bouncer" do
-  version "0.2.1"
-  sha256 "7ef0fe6003eaede46c68b4b1b12ee755a686171202b8729f38995180918571be"
+  version "0.3.0"
+  sha256 "3dd564ec3fc1648a773e6f4340956e832c9a698290a87ac990d1344ef3a951da"
 
   url "https://github.com/fstermann/bouncer/releases/download/v#{version}/Bouncer-#{version}.dmg"
   name "Bouncer"
