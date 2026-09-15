@@ -1,16 +1,32 @@
 # homebrew-tap
 
-Homebrew tap for [Bouncer](https://github.com/fstermann/bouncer), a macOS menu bar manager.
+Homebrew tap for [sniff](https://github.com/fstermann/sniff) and
+[Bouncer](https://github.com/fstermann/bouncer).
 
-## Install
+## sniff
+
+`sniff` finds ambiguous, contradictory, and unverifiable writing.
+
+```sh
+brew install fstermann/tap/sniff
+```
+
+That auto-taps this repo; no separate `brew tap` step is needed.
+Homebrew also installs Vale as a dependency.
+
+Upgrade with:
+
+```sh
+brew upgrade sniff
+```
+
+## Bouncer
+
+Bouncer is a macOS menu bar manager.
 
 ```sh
 brew install --cask fstermann/tap/bouncer
 ```
-
-That auto-taps this repo; no separate `brew tap` step is needed.
-
-## Updates
 
 Bouncer installed this way is updated by Homebrew, not its built-in Sparkle updater:
 
