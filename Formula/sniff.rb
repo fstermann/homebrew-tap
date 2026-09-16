@@ -1,22 +1,22 @@
 class Sniff < Formula
   desc "Find ambiguous, contradictory, and unverifiable writing"
   homepage "https://github.com/fstermann/sniff"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fstermann/sniff/releases/download/v0.2.0/sniff-0.2.0-macos-aarch64.tar.gz"
-      sha256 "7c3f10be15d486eb653561564da42ade1a46779c57212b92775a67abb4efa0ef"
+      url "https://github.com/fstermann/sniff/releases/download/v0.2.1/sniff-0.2.1-macos-aarch64.tar.gz"
+      sha256 "d0d527df8270dd9c18b979cd831f526b9b70efcc5939825a6f5229e16e31aaab"
     else
-      url "https://github.com/fstermann/sniff/releases/download/v0.2.0/sniff-0.2.0-macos-x86_64.tar.gz"
-      sha256 "891375c1e28ea3d72cf4093f2853b4a908523c9fe0b69962ffe7b0f303e35778"
+      url "https://github.com/fstermann/sniff/releases/download/v0.2.1/sniff-0.2.1-macos-x86_64.tar.gz"
+      sha256 "8ce8813978169e646380a5f9855bf18df93e04f8b22f3102d748c2eece8633f0"
     end
   end
 
   on_linux do
-    url "https://github.com/fstermann/sniff/releases/download/v0.2.0/sniff-0.2.0-linux-x86_64.tar.gz"
-    sha256 "f8ba722558d39ac2e25bde1da560fd976c85550c5bf29a72425f287705232bec"
+    url "https://github.com/fstermann/sniff/releases/download/v0.2.1/sniff-0.2.1-linux-x86_64.tar.gz"
+    sha256 "7512c2b6db2e36310376617d5dc91d1353bb721e212450f70d5435d6fce52015"
   end
 
   depends_on "vale"
